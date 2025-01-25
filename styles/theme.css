@@ -1,0 +1,67 @@
+/* path: src/styles/theme.css */
+
+/* Light Theme */
+:root {
+  --primary-color: #007bff; /* Default blue */
+  --secondary-color: #6c757d; /* Default gray */
+  --background-color: #f8f9fa; /* Light background */
+  --text-color: #333; /* Dark text */
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --primary-color: #1e90ff; /* Dodger blue */
+  --secondary-color: #a9a9a9; /* Dark gray */
+  --background-color: #121212; /* Dark background */
+  --text-color: #f5f5f5; /* Light text */
+}
+
+/* Weather-Based Customizations */
+[data-weather="sunny"] {
+  --primary-color: #FFD700; /* Gold */
+  --secondary-color: #FFA500; /* Orange */
+  --background-color: #FFF8DC; /* Cornsilk */
+}
+
+[data-weather="cloudy"] {
+  --primary-color: #B0C4DE; /* LightSteelBlue */
+  --secondary-color: #778899; /* LightSlateGray */
+  --background-color: #F0F8FF; /* AliceBlue */
+}
+
+[data-weather="rainy"] {
+  --primary-color: #4682B4; /* SteelBlue */
+  --secondary-color: #5F9EA0; /* CadetBlue */
+  --background-color: #E0FFFF; /* LightCyan */
+}
+
+[data-weather="snowy"] {
+  --primary-color: #00CED1; /* DarkTurquoise */
+  --secondary-color: #B0E0E6; /* PowderBlue */
+  --background-color: #F0FFFF; /* Azure */
+}
+
+/* Applying the Theme */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button, .card {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
