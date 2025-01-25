@@ -1,6 +1,41 @@
 # PixelByte
 🖼️ Web application that dynamically selects color schemes based on real-time weather conditions specific location. It provides a visually appealing way to integrate weather data with UI design, offering users an immersive experience that reflects current weather conditions through color.
 
+## Key Features 
+- Dynamic Color Schemes: The app changes its UI colors dynamically based on weather conditions like sunny, cloudy, rainy, or snowy.
+- Real-Time Weather Updates: Fetches live weather data for any location, providing accurate and up-to-date information.
+- Reusable Components: Built with modular, reusable React components for easy scalability and maintenance.
+- Beautiful Design: Implements visually appealing themes and transitions for a seamless user experience.
+- Custom Hooks: Efficiently handles weather data and color schemes with React hooks.
+- Cross-Browser Support: Optimized for consistent functionality and appearance across different browsers.
+- Responsive Design: Adapts seamlessly to different devices and screen sizes.
+
+## Installation 
+
+1. Clone the Repository
+```
+git clone https://github.com/your-username/PixelByte.git
+cd PixelByte
+
+2. Install Dependencies:
+```
+yarn install
+# or
+npm install
+``
+
+3. Set Up Environment Variables: Create a .env file in the root directory and include your API keys:
+```
+WEATHER_API_KEY=your_weather_api_key
+```
+
+4. Start the Development Server:
+```
+yarn start
+# or
+npm start
+```
+
 ## File Structure 
 
 ```
