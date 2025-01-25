@@ -119,3 +119,4 @@ PixelByte/
 └── README.md                    # Project documentation
 
 ```
+.
