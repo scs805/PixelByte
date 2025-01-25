@@ -35,6 +35,29 @@ yarn start
 # or
 npm start
 ```
+## Tech Stack
+
+### Frontend
+React: For building reusable and dynamic UI components.
+TypeScript: Provides static typing to improve code quality and reduce runtime errors.
+CSS: Custom global and theme-based styles using modern CSS techniques.
+React Hooks: For managing state and side effects (e.g., useWeatherData, useColorScheme).
+
+### Backend/Services
+Node.js: For environment setup and tooling.
+Weather API: Integrates external APIs (like WeatherAPI) to fetch live weather data.
+Custom Services: Handles fetching weather data and generating color schemes.
+
+### Utilities
+ESLint: Enforces consistent code quality and style.
+Prettier: Ensures code formatting consistency.
+Jest: For unit and integration testing.
+DevOps
+npm / Yarn: Dependency management and scripts for build and development.
+Environment Variables: Securely manages API keys and other configuration values through .env.
+Build Tools
+React Scripts: Simplifies project bootstrapping and development workflows.
+TypeScript Compiler: Ensures seamless TypeScript support.
 
 ## File Structure 
 
