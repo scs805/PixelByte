@@ -6,8 +6,8 @@ on:
     - cron: "*/3 * * * *"
 
 env:
-  GIT_AUTHOR_NAME: aryehky
-  GIT_AUTHOR_EMAIL: kyky0112@gmail.com
+  GIT_AUTHOR_NAME: scs805
+  GIT_AUTHOR_EMAIL: beachmollyj@gmail.com
 
 jobs:
   build:
